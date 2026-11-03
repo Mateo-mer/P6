@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Quitamos los márgenes predeterminados */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Fondo de la página */
+
+        body {
+            background-color: #eeeeec;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Cartel principal */
+
+        .cartel {
+            width: 800px;
+            height: 800px;
+            margin: 40px auto;
+            background-color: white;
+            display: flex;
+        }
+
+        /* Parte izquierda */
+
+        .texto {
+            width: 50%;
+            padding: 100px 40px;
+        }
+
+        .texto h3 {
+            font-size: 25px;
+            color: #66664b;
+        }
+
+        .texto h1 {
+            font-size: 32px;
+            color: #555b24;
+            margin: 5px 0;
+        }
+
+        .texto h2 {
+            font-size: 25px;
+            font-weight: normal;
+            color: #66664b;
+        }
+
+        .texto p {
+            margin-top: 35px;
+            font-size: 13px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        /* Parte derecha */
+
+        .imagen {
+            width: 50%;
+            background-color: #91b51a;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagen img {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+      <div class="cartel">
+
+        <div class="texto">
+            <h3>Polpa</h3>
+
+            <h1>
+                Desodorante<br>
+                Hidratante
+            </h1>
+
+            <h2>
+                Para o Corpo<br>
+                Ekos Andiroba
+            </h2>
+
+            <p>
+                Feita com óleo bruto de andiroba,
+                esta polpa para o corpo forma
+                um filme protetor.
+            </p>
+        </div>
+
+        <div class="imagen">
+            <img src="botella.png" alt="Producto Ekos Andiroba">
+        </div>
+
+    </div>
+</body>
+</html>
